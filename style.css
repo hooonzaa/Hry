@@ -1,0 +1,67 @@
+.piškvorky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+.H1:hover{
+color: blue;
+cursor: pointer;
+}
+.memory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.memory-game {
+    display: flex;
+    flex-direction: column;
+}
+
+.Pexeso {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    margin: 5px;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.Moravec{
+   display: flex; 
+   justify-content: left;
+   text-decoration-line: underline;
+}
+.Moravec:hover{
+    color: violet;
+}
